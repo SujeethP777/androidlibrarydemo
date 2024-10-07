@@ -26,19 +26,6 @@ android {
     }
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
-
-                groupId = 'com.github.SujeethP777'
-                artifactId = 'androidlibrarydemo'
-                version = '1.0'
-            }
-        }
-    }
-}
 
 dependencies {
 
